@@ -1,0 +1,60 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f4faff;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: linear-gradient(to right, #ff8a00, #e52e71);
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 80%;
+}
+
+button {
+  background: #ff8a00;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background: #e52e71;
+}

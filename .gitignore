@@ -1,0 +1,35 @@
+# Node.js dependencies (Frontend)
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/build/
+frontend/dist/
+
+# Python dependencies (Backend)
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.env
+backend/instance/
+
+# Ignore database files
+backend/*.sqlite3
+backend/db.sqlite3
+
+# Ignore logs and cache
+*.log
+*.out
+*.pid
+*.seed
+*.swp
+*.swo
+
+# OS-related files
+.DS_Store
+Thumbs.db
