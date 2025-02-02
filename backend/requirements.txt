@@ -7,3 +7,4 @@ jwt
 flask_cors
 flask_migrate
 flask_bcrypt
+dotenv
