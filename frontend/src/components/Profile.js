@@ -18,7 +18,7 @@ const Profile = () => {
           throw new Error('No token found');
         }
 
-        const response = await fetch('http://127.0.0.1:5000/profile', {  // Correct API URL
+        const response = await fetch('https://ai-python-tutor-backend.onrender.com', {  // Correct API URL
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${token}`,  // Send the JWT token in the Authorization header
