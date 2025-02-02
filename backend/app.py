@@ -10,8 +10,7 @@ import os
 from dotenv import load_dotenv
 from functools import wraps
 import jwt
-import sys
-import io
+
 import subprocess
 # Load environment variables
 load_dotenv()
@@ -205,5 +204,9 @@ def update_user_profile(user):
     
     return jsonify({"error": "Bio is required"}), 400
 
+@app.route("/")
+def home():
+    return "Hello, Flask on Render!"
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000)
